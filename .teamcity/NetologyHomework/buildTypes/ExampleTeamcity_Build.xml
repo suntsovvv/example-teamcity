@@ -5,9 +5,9 @@
   <settings>
     <parameters />
     <build-runners>
-      <runner id="Maven2" name="" type="Maven2">
+      <runner id="Maven2" name="test" type="Maven2">
         <conditions>
-          <contains name="teamcity.build.branch" value="master" />
+          <does-not-contain name="teamcity.build.branch" value="master" />
         </conditions>
         <parameters>
           <param name="goals" value="clean test" />

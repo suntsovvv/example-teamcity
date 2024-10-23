@@ -4,7 +4,7 @@
   <description />
   <settings>
     <options>
-      <option name="artifactRules" value="target/asdqwe.jar" />
+      <option name="artifactRules" value="target/plaindoll-0.0.3.jar" />
       <option name="publishArtifactCondition" value="SUCCESSFUL" />
     </options>
     <parameters />
